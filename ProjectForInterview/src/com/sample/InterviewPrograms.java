@@ -4,14 +4,7 @@ import java.util.Random;
 
 public class InterviewPrograms {
 
-	/**
-	 * @author Logesh This is method to check wheather the number variable is
-	 *         present in the array (ar) or not, It is used to avoid repetability of
-	 *         number in a array
-	 * @param number
-	 * @param ar
-	 * @return
-	 */
+	
 	
 	public static boolean checkPresenceOfElementInArray(int number, int[] ar) {
 		boolean check = false;
@@ -27,11 +20,7 @@ public class InterviewPrograms {
 		return check;
 	}
 
-	/**
-	 * @author Logesh 
-	 *         problem statement = to fill an integer array
-	 *         without repeting elements and without using collection interface
-	 */
+	
 	public static void toFillAnArrayofNumbersWithoutRepeatElements() {
 		int[] ar = new int[25];
 
@@ -53,11 +42,11 @@ public class InterviewPrograms {
 	}
 
 	/**
-	 * @author Logesh 
-	 *         problem statement1 = to find the number of words in a string
-	 *         problem statement2 = to find the repetation numbers of words in a
+	 *  //question 2
+	 *          statement1 = to find the number of words in a string
+	 *          statement2 = to find the repetation numbers of words in a
 	 *         string
-	 * @param args
+	 * 
 	 */
 	public static void toCheckRepetationOfWords() {
 		// 2nd program
@@ -83,9 +72,7 @@ public class InterviewPrograms {
 	}
 
 	/**
-	 * @author Logesh 
-	 *         problem statement = to create a scenario of playing hand
-	 *         cricket and displaying winner
+	 * //////question3
 	 */
 	public static void handCricket() {
 		// 3 rd program
